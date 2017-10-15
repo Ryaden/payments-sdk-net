@@ -40,3 +40,6 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [1.1.9] - 2017-09-13
 - Changed hardcoded client base uri to optional constructor parameter.
+
+## [1.1.10] - 2017-10-10
+- Added supportedCurrencies hack.

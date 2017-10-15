@@ -28,5 +28,20 @@ namespace CM.Payments.Client.Model
         [JsonProperty("payments")]
         [JsonRequired]
         public IEnumerable<PaymentRequest> Payments { get; set; }
+
+        /// <summary>
+        /// DDP feature: Client language
+        /// </summary>
+        [JsonProperty("language")]
+        [JsonRequired]
+        public string Language { get; set; }
+
+        /// <summary>
+        /// DDP feature: Emailaddress
+        /// </summary>
+        [JsonProperty("email")]
+        [JsonRequired]
+        public string Email { get; set; }
+
     }
 }

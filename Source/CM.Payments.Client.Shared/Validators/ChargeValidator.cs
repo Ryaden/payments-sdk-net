@@ -10,10 +10,13 @@ namespace CM.Payments.Client.Validators
 {
     internal sealed class ChargeValidator : AbstractValidator<ChargeRequest>
     {
+
+        static readonly List<string> supportedCurrencies = new List<string> { "EUR", "ZAR", "GBP", "USD", "SGD", "HKD", "CNY" };
+
         public ChargeValidator()
         {
             this.RuleFor(c => c.Amount).NotEmpty();
-            this.RuleFor(c => c.Currency).NotEmpty().Must(BeAValidIsoFormat).WithMessage("'Currency' must be in the ISO format.");
+            this.RuleFor(c => c.Currency).NotEmpty().Must(BeAValidIsoFormat).WithMessage("'Currency' must be in the supported currencies list.");
             this.RuleFor(c => c.Payments)
                 .Must(ContainOneItem)
                 .WithMessage("'Payments' must contain '1' payment.")
@@ -24,8 +27,7 @@ namespace CM.Payments.Client.Validators
 
         private static bool BeAValidIsoFormat(string currency)
         {
-            var info = new RegionInfo("NL");
-            return info.ISOCurrencySymbol == currency;
+            return supportedCurrencies.Contains(currency);
         }
 
         private static bool BeImplemented(IEnumerable<PaymentRequest> payments)
