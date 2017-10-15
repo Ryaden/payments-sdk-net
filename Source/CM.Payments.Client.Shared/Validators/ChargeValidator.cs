@@ -7,9 +7,6 @@ namespace CM.Payments.Client.Validators
 {
     internal sealed class ChargeValidator : AbstractValidator<ChargeRequest>
     {
-
-        static readonly List<string> supportedCurrencies = new List<string> { "EUR", "ZAR", "GBP", "USD", "SGD", "HKD", "CNY" };
-
         public ChargeValidator()
         {
             this.RuleFor(c => c.Amount).NotEmpty();
