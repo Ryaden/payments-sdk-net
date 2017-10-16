@@ -41,6 +41,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ## [1.1.9] - 2017-09-13
 - Changed hardcoded client base uri to optional constructor parameter.
 
-## [1.1.10] - 2017-09-13
+## [1.1.10] - 2017-10-13
 - Removed charge validation rule to check the usage of WireTransfer.
 - Removed charge validation rule to check currency.
+
+## [1.1.11] - 2017-10-15
+- Removed payment validation ISO check.
