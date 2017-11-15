@@ -1,4 +1,6 @@
 ﻿using JetBrains.Annotations;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Serialization;
 
 namespace CM.Payments.Client.Model
 {
@@ -8,5 +10,7 @@ namespace CM.Payments.Client.Model
     [PublicAPI]
     public class WireTransferDetailsRequest : DetailsRequest
     {
+        [JsonProperty(PropertyName = "email")]
+        public string Email { get; set; }
     }
 }
