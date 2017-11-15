@@ -47,3 +47,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [1.1.11] - 2017-10-15
 - Removed payment validation ISO check.
+
+## [1.1.12] - 2017-11-15
+- Added PaypalSaleID to PayPalDetailsResponse
+- Added Email to WireTransferRequest.

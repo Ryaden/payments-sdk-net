@@ -49,7 +49,7 @@ namespace CM.Payments.Client.Model
         /// The PayPal transaction ID.
         /// </summary>
         [JsonProperty("paypal_sale_id")]
-        public string PaypalSaleID { get; set; }
+        public string PayPalSaleID { get; set; }
 
         /// <summary>
         /// URL to where an end-user can execute the payment.
