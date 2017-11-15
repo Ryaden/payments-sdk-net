@@ -46,6 +46,12 @@ namespace CM.Payments.Client.Model
         public string Lastname { get; set; }
 
         /// <summary>
+        /// The PayPal transaction ID.
+        /// </summary>
+        [JsonProperty("paypal_sale_id")]
+        public string PaypalSaleID { get; set; }
+
+        /// <summary>
         /// URL to where an end-user can execute the payment.
         /// </summary>
         [JsonProperty("authentication_url")]
