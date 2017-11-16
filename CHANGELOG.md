@@ -51,3 +51,6 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ## [1.1.12] - 2017-11-15
 - Added PaypalSaleID to PayPalDetailsResponse
 - Added Email to WireTransferRequest.
+
+## [1.1.13] - 2017-11-16
+- Removed validation on SOFORT banknumber, bic and customer name.
