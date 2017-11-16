@@ -7,6 +7,7 @@ namespace CM.Payments.Client.Validators
     {
         public SofortDetailsValidator()
         {
+            this.RuleFor(r => r.PurchaseId).NotEmpty().Length(1, 35);
             this.RuleFor(r => r.Description).NotEmpty().Length(1, 35);
         }
     }
