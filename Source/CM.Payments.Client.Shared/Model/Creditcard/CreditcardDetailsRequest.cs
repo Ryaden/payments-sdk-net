@@ -20,5 +20,11 @@ namespace CM.Payments.Client.Model
         /// </summary>
         [JsonProperty("recurring", NullValueHandling = NullValueHandling.Ignore)]
         public bool? Recurring { get; set; }
+
+        /// <summary>
+        /// Used for tokenized credit card payments.
+        /// </summary>
+        [JsonProperty("token", NullValueHandling = NullValueHandling.Ignore)]
+        public bool? Token { get; set; }
     }
 }

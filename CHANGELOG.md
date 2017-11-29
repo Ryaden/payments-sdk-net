@@ -54,3 +54,6 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [1.1.13] - 2017-11-16
 - Removed validation on SOFORT banknumber, bic and customer name.
+
+## [1.1.14] - 2017-11-27
+- Added Token property to CreditCardDetailsRequest.
