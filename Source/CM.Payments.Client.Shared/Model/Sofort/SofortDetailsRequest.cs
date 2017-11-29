@@ -12,19 +12,19 @@ namespace CM.Payments.Client.Model
         /// <summary>
         /// IBAN of customer bank account.
         /// </summary>
-        [JsonProperty("bank_account_number")]
+        [JsonProperty("bank_account_number", NullValueHandling = NullValueHandling.Ignore)]
         public string BankAccountNumber { get; set; }
 
         /// <summary>
         /// BIC of customer bank.
         /// </summary>
-        [JsonProperty("bank_bic")]
+        [JsonProperty("bank_bic", NullValueHandling = NullValueHandling.Ignore)]
         public string BankBic { get; set; }
 
         /// <summary>
         /// Name of the customer.
         /// </summary>
-        [JsonProperty("consumer_name")]
+        [JsonProperty("consumer_name", NullValueHandling = NullValueHandling.Ignore)]
         public string ConsumerName { get; set; }
 
         /// <summary>
