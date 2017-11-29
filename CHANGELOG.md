@@ -57,3 +57,6 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [1.1.14] - 2017-11-27
 - Added Token property to CreditCardDetailsRequest.
+
+## [1.1.15] - 2017-11-29
+- Fixed issue with token being a bool instead of string.
