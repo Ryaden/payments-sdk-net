@@ -25,6 +25,6 @@ namespace CM.Payments.Client.Model
         /// Used for tokenized credit card payments.
         /// </summary>
         [JsonProperty("token", NullValueHandling = NullValueHandling.Ignore)]
-        public bool? Token { get; set; }
+        public string Token { get; set; }
     }
 }
