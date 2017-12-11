@@ -22,6 +22,12 @@ namespace CM.Payments.Client.Model
         public bool? Recurring { get; set; }
 
         /// <summary>
+        /// Unique identifier of the recurring payment.
+        /// </summary>
+        [JsonProperty("recurring_id", NullValueHandling = NullValueHandling.Ignore)]
+        public string RecurringId { get; set; }
+
+        /// <summary>
         /// Used for tokenized credit card payments.
         /// </summary>
         [JsonProperty("token", NullValueHandling = NullValueHandling.Ignore)]
