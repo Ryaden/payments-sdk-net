@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="8d4d31bf-ce36-424b-b6c9-0b9dff0e193c" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="https://test.docdatapayments.com/ps/services/paymentservice/1_3?wsdl" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="1_3.xsd" MetadataType="Schema" ID="de473411-ed67-415b-9b76-6563e9f2f279" SourceId="1" SourceUrl="https://test.docdatapayments.com/ps/services/paymentservice/1_3?xsd=2" />
+    <MetadataFile FileName="paymentService.wsdl" MetadataType="Wsdl" ID="f226d7be-b998-478e-bd00-9c113b5109c4" SourceId="1" SourceUrl="https://test.docdatapayments.com/ps/services/paymentservice/1_3?wsdl" />
+    <MetadataFile FileName="1_31.xsd" MetadataType="Schema" ID="9d3e2cb0-942e-4acc-a11d-e0debd3352da" SourceId="1" SourceUrl="https://test.docdatapayments.com/ps/services/paymentservice/1_3?xsd=1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
