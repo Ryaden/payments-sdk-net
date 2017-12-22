@@ -16,6 +16,18 @@ namespace CM.Payments.Client.Model
         public bool Capture { get; set; }
 
         /// <summary>
+        /// Whether a recurring payment needs to be created, or not.
+        /// </summary>
+        [JsonProperty("recurring", NullValueHandling = NullValueHandling.Ignore)]
+        public bool? Recurring { get; set; }
+
+        /// <summary>
+        /// Unique identifier of the recurring payment.
+        /// </summary>
+        [JsonProperty("recurring_id", NullValueHandling = NullValueHandling.Ignore)]
+        public string RecurringId { get; set; }
+
+        /// <summary>
         /// Contains more in depth information about the Payment.
         /// </summary>
         [JsonProperty("payment_details")]
