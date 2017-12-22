@@ -56,6 +56,9 @@
   </ItemGroup>
   <Import Project="..\CM.Payments.Client.Shared\CM.Payments.Client.Shared.projitems" Label="Shared" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>powershell.exe -ExecutionPolicy Bypass -File C:\DevScripts\CreatePack.ps1 -projectFilePath $(ProjectPath) -buildMode $(ConfigurationName)</PostBuildEvent>
+  </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">
