@@ -1,4 +1,5 @@
-﻿using JetBrains.Annotations;
+﻿using CM.Payments.Client.Model.Creditcard;
+using JetBrains.Annotations;
 using Newtonsoft.Json;
 
 namespace CM.Payments.Client.Model
@@ -32,5 +33,11 @@ namespace CM.Payments.Client.Model
         /// </summary>
         [JsonProperty("reason_for_failure")]
         public string ReasonForFailure { get; set; }
+
+        [JsonProperty("redirect", NullValueHandling = NullValueHandling.Ignore)]
+        public CreditCardRedirectResponse Redirect { get; set; }
+
+
+
     }
 }

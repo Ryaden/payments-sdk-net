@@ -66,3 +66,6 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [1.1.17] - 2017-12-22
 - Moved recurring_id and recurring boolean to paymentrequest instead of payment_details._
+
+## [1.1.18] - 2017-01-12
+- Added Tokenized payments properties for credit cards (CreditCardRedirectResponse).
