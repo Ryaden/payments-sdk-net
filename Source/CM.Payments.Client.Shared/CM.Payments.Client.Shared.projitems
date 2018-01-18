@@ -28,8 +28,10 @@
     <Compile Include="$(MSBuildThisFileDirectory)Model\ChargeResponse.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Model\Creditcard\CreditcardDetailsRequest.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Model\Creditcard\CreditcardDetailsResponse.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\Creditcard\CreditCardParametersResponse.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Model\Creditcard\CreditcardPaymentRequest.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Model\Creditcard\CreditcardPaymentResponse.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\Creditcard\CreditCardRedirectResponse.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Model\DetailsRequest.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Model\DirectDebit\DirectDebitDetailsRequest.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Model\DirectDebit\DirectDebitDetailsResponse.cs" />
