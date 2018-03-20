@@ -69,3 +69,6 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [1.1.18] - 2017-01-12
 - Added Tokenized payments properties for credit cards (CreditCardRedirectResponse).
+
+## [1.1.19] - 2018-03-20
+- Added CanWrite: false for custom PaymentsConverter, this will fallback to the default jsonConverter.
