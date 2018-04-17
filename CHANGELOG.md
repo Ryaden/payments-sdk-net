@@ -72,3 +72,6 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [1.1.19] - 2018-03-20
 - Added CanWrite: false for custom PaymentsConverter, this will fallback to the default jsonConverter.
+
+## [1.1.20] - 2018-04-17
+- Added Alipay classes.

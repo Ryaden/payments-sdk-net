@@ -1,7 +1,4 @@
-﻿using System.Collections.Generic;
-using System.Globalization;
-using System.Linq;
-using CM.Payments.Client.Model;
+﻿using CM.Payments.Client.Model;
 using FluentValidation;
 
 namespace CM.Payments.Client.Validators
@@ -19,6 +16,7 @@ namespace CM.Payments.Client.Validators
             this.AddValidator<BancontactPaymentRequest, BancontactValidator>();
             this.AddValidator<WireTransferPaymentRequest, WireTransferValidator>();
             this.AddValidator<DirectDebitPaymentRequest, DirectDebitValidator>();
+            this.AddValidator<AliPayPaymentRequest, AliPayValidator>();
         } 
     }
 }
