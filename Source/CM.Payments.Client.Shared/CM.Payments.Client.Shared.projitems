@@ -61,6 +61,8 @@
     <Compile Include="$(MSBuildThisFileDirectory)Model\Refund\RefundDetailsRequest.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Model\Refund\RefundDetailsResponse.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Model\Refund\RefundResponse.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\ShippingAddress.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\ShopperDetails.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Model\Sofort\SofortDetailsRequest.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Model\Sofort\SofortDetailsResponse.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Model\Sofort\SofortPaymentRequest.cs" />
