@@ -75,3 +75,6 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [1.1.20] - 2018-04-17
 - Added Alipay classes.
+
+## [1.1.21] - 2018-05-04
+- Added ShopperDetails to details request.
