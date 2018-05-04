@@ -23,10 +23,13 @@ namespace CM.Payments.Client.Converters
             PaymentResponse target;
 
             var token = JToken.Load(reader);
-            
+
             var method = token["payment_method"]?.Value<string>();
             switch (method)
             {
+                case "Alipay":
+                    target = new AliPayPaymentResponse();
+                    break;
                 case "iDEAL":
                     target = new IdealPaymentResponse();
                     break;

@@ -8,6 +8,12 @@ namespace CM.Payments.Client.Model
     public abstract class DetailsRequest
     {
         /// <summary>
+        /// Details about the shopper.
+        /// </summary>
+        [JsonProperty("shopper_details")]
+        public ShopperDetails ShopperDetails { get; set; }
+
+        /// <summary>
         /// URL that will be used to call the backend of a merchant when the status has changed.
         /// </summary>
         [JsonProperty("callback_url", NullValueHandling = NullValueHandling.Ignore)]

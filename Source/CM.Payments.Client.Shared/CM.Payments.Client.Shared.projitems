@@ -20,6 +20,10 @@
     <Compile Include="$(MSBuildThisFileDirectory)Model\AfterPay\AfterPayPaymentResponse.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Model\AfterPay\AfterPayRefundDetailsRequest.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Model\AfterPay\AfterPayVatCategory.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\AliPay\AliPayDetailsRequest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\AliPay\AliPayDetailsResponse.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\AliPay\AliPayPaymentRequest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\AliPay\AliPayPaymentResponse.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Model\Bancontact\BancontactDetailsRequest.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Model\Bancontact\BancontactDetailsResponse.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Model\Bancontact\BancontactPaymentRequest.cs" />
@@ -57,6 +61,8 @@
     <Compile Include="$(MSBuildThisFileDirectory)Model\Refund\RefundDetailsRequest.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Model\Refund\RefundDetailsResponse.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Model\Refund\RefundResponse.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\ShippingAddress.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\ShopperDetails.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Model\Sofort\SofortDetailsRequest.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Model\Sofort\SofortDetailsResponse.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Model\Sofort\SofortPaymentRequest.cs" />
@@ -72,6 +78,8 @@
     <Compile Include="$(MSBuildThisFileDirectory)UnhandledRequestException.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Validators\AfterPayDetailsValidator.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Validators\AfterPayValidator.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Validators\AliPayDetailsValidator.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Validators\AliPayValidator.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Validators\BancontactDetailsValidator.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Validators\BancontactValidator.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Validators\ChargeValidator.cs" />
